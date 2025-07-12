@@ -1,4 +1,4 @@
-import os, random, urllib3, uvicorn
+import os, random, urllib3, uvicorn, app
 from telegram import Update, Bot
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
 

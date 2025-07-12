@@ -1,4 +1,4 @@
-import os, random
+import os, random, urllib3
 from telegram import Update, Bot
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
 
